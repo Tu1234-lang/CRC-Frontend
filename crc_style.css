@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Rubik");
+
+body{
+	background-color:#1b1a19;
+}
+
+.all {
+	max-width:900px;
+	max-height:100%;
+	margin:auto;
+	position:relative;
+	font-family:Lato, sans-serif;
+	background-color:rgb(250,250,250);
+	padding:1% 2%;
+	color: #545454;
+	border-bottom-style:solid;
+	border-top-style:solid;
+	border-color:#c2d6d1;
+	overflow:auto;
+}
+
+.top-h {
+	text-align:center;
+	line-height:50%;
+	font-family:Rubik,sans-serif;
+	display:block;
+}
+
+#n{
+	font-size: x-large;
+	text-transform: uppercase;
+}
+
+.contact-info{
+	border-top:solid #c2d6d1;
+	padding-top:0.01%;
+	text-align:center;
+	display:inline-block;
+}
+
+.title-under{
+	display: block;
+	margin-left: auto;
+	margin-right:auto;
+	background-color: #c2d6d1;
+	max-width: 50%;
+	text-align: center;
+	text-transform: uppercase;
+	font-size:small;
+	font-family:Rubik,sans-serif;
+}
+
+td{
+	padding:0.2%;
+	border-bottom-style: solid;
+	text-align: left;
+	font-size:medium;
+}
+
+.tech-under{
+	margin-left: auto;
+  	margin-right: auto;
+  	width:100%;
+  	table-layout:fixed;
+}
+
+#ft{
+	text-align:center;
+	display:block;
+	line-height:70%;
+}
+
+#edu{
+	display:inline-block;
+}
+
+a:link {
+	color:#c2d6d1;
+}
+
+#edu-1{
+	font-weight:bold;
+}
